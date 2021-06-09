@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-IMAGE_NAME=jupyter_notebook
-CONTAINER_NAME=jupyter_notebook
+IMAGE_NAME=jupyter
+CONTAINER_NAME=jupyter
 DEVICES="all"
 
 if [[ $DEVICES == 'cpu' ]]
